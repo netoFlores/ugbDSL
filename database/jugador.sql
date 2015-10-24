@@ -4,7 +4,7 @@ CREATE DATABASE  IF NOT EXISTS basketball;
 
 use basketball;
 
-
+#Creación de las tablas.
 CREATE TABLE IF NOT EXISTS equipo(
 	id_equipo int primary key auto_increment not null,
 	nombre varchar(50) not null,
